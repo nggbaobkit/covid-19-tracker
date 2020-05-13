@@ -1,5 +1,8 @@
 body {
   background-color: #eeeeee;
+  font-family: 'Montserrat', sans-serif !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 .container {
@@ -12,4 +15,14 @@ body {
 .image {
   width: 370px;
   margin-top: 30px;
+}
+
+@media (max-width: 770px) {
+  .container {
+    margin: 0 10%;
+  }
+
+  .image {
+    width: 100%;
+  }
 }

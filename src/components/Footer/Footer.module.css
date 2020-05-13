@@ -1,0 +1,17 @@
+.container {
+  background-color: #101820e6;
+  text-align: center;
+  height: 100%;
+  width: 98vw;
+  margin-top: 30px;
+}
+
+.content {
+  display: inline-block;
+  color: white;
+  padding: 32px 0;
+}
+
+.link {
+  color: #417fd1;
+}
